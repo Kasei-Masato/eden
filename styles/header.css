@@ -1,0 +1,112 @@
+.header-container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    user-select: none;
+    background-color: black;
+    height: 40vh;
+}
+
+.leather {
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+    right: 0;
+}
+
+.eden-logo {
+    height: 35vh;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.bathhouse-yard-logo {
+    height: 20vh;
+    user-select: none;
+    -webkit-user-drag: none;
+    position: absolute;
+}
+
+.white-circle {
+    background-color: white;
+    height: 26vh;
+    width: 38vh;
+    border-radius: 16vh;
+    position: absolute;
+    border: solid 0.5vh  rgb(81, 81, 81);
+}
+
+.white-border {
+    background-color: lightgray;
+    height: 0.5vh;
+    width: 100%;
+}
+
+.header-border {
+    background-color: rgb(81, 81, 81);
+    height: 0.5vh;
+    width: 100%;
+}
+
+.header-between-borders {
+    background-color: rgb(225, 193, 153);
+    height: 2vh;
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.the-button-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    row-gap: 50vh;
+    height: 4vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .the-button {
+        padding: 15px 15px;
+        background: white;
+        position: absolute;
+        cursor: pointer;
+        border-radius: 8px;
+        filter: drop-shadow(2px 2px 3px rgba(255, 255, 255, 0.708));
+        user-select: none;
+        width: 6vh;
+        height: 6vh;
+        border: none;
+    }
+
+    .the-button:active {
+        filter: none;
+    }
+
+    .menu-icon {
+        height: 2.5vh;
+        position: absolute;
+        right: 50%;
+        top: 50%;
+        transform:translate(+50%, -50%) rotate(-45deg);
+        z-index: 3;
+        -webkit-user-drag: none;
+    }
+
+.right-button {
+    transform: translate(+420%, 0) rotate(45deg);
+}
+
+.left-button {
+    transform: translate(-420%, 0) rotate(45deg);
+}    
+
+@media (max-width: 1500px) {
+    .the-button {
+            
+    }
+}

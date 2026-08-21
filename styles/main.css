@@ -1,0 +1,234 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background1 {
+    padding: 5vh 10vh;
+    max-width: 120vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: none;
+    border-right: none;
+}
+
+.mi-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    margin-bottom: 5vh;
+    margin-top: 6vh;
+}
+
+.top-info-image {
+    height: 35vh;
+    border-radius: 5vh;
+}
+
+.top-info-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-info-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4.5vh;
+    padding-bottom: 2vh;
+    min-width: 10vh;
+    font-family: "Roboto Slab", serif;
+}
+
+.top-info-border {
+    background-color: rgb(81, 81, 81);
+    height: 0.3vh;
+    width: 100%;
+    border-radius: 1vh;
+}
+
+.top-info-text {
+    font-size: 2.5vh;
+    padding: 1vh 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+.better-indentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.lower-info {
+    font-size: 2.8vh;
+    line-height: 4vh;
+    margin: 1vh 4vh;
+}
+
+.margin-bottom {
+    margin-bottom: 4vh;
+}
+
+.quality {
+    font-weight: 500;
+    margin-bottom: 2vh;
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+}
+
+.whole-text-center {
+    max-width: 120vh;
+}
+
+
+.background2 {
+    padding: 2vh 10vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    background-image: url("/home/argo/Desktop/kgb.kg/images/marble.jpg");
+    background-repeat: repeat-x;
+    background-size: auto;
+}
+
+.our-rooms {
+    display: inline-block;
+    outline: none;
+    font-family: inherit;
+    font-size: 5vh;
+    border: none;
+    border-radius: 1vh;
+    height: wrap;
+    line-height: 10vh;
+    color: rgb(120, 50, 5);
+    text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
+    text-transform: uppercase;
+    padding: 0 4vh;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(110, 80, 20, 0.4),
+    inset 0 -2px 5px 1px rgba(139, 66, 8, 1),
+    inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
+    user-select: none;
+    background-image: linear-gradient(
+    160deg,
+    #a54e07,
+    #b47e11,
+    #fef1a2,
+    #bc881b,
+    #a54e07
+  );
+}
+
+.room-conrainer {
+    display: flex;
+}
+
+.room-main-info {
+    font-size: 3.5vh;
+    padding: 0.5vh 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+.price {
+    line-height: 3vh;
+    margin-top: 1vh;
+}
+
+.smaller {
+    font-size: 2.3vh;
+}
+
+.button-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+}
+
+.side-border {
+    background-color: rgb(81, 81, 81);
+    height: 0.3vh;
+    width: 100%;
+    border-radius: 1vh;
+}
+
+.know-more-button {
+    border: solid 0.3vh rgb(81, 81, 81);
+    background-color: black;
+    color: white;
+    padding: 0.5vh 1vh;
+    font-size: 2.8vh;
+    font-weight: 500;
+    border-radius: 1vh;
+    cursor: pointer;
+    user-select: none;
+}
+
+.know-more-button:hover {
+    opacity: 0.9;
+}
+
+.know-more-button:active {
+    opacity: 0.7;
+}
+
+.container2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+.background3 {
+    padding: 6vh 20vh;
+    max-width: 200vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: none;
+    border-right: none;
+    z-index: 1;
+}
+
+.room-info {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5vh;
+    margin-bottom: 5vh;
+    height: 35vh;
+    margin-top: 4vh;
+}
+
+.side {
+    min-height: 100%;
+    background-image: url("/home/argo/Desktop/kgb.kg/images/marble.jpg");
+    background-repeat: repeat-y;
+    background-size: max(0px, calc((100vw - 1200px) / 2)) auto;
+}
+
+@media (max-width: 1500px) {
+    .mi-info {
+        flex-direction: column;
+    }
+}

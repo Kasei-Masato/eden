@@ -1,0 +1,121 @@
+.our-saunas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    margin-top: 4vh;
+    user-select: none;
+}
+
+.our-saunas-text {
+    font-family: "Great Vibes", cursive;
+    font-size: 6vh;
+}
+
+.divider {
+    height: 6vh;
+    -webkit-user-drag: none;
+}
+
+.objects-container {
+    width: 100%;
+    height: auto;
+    padding: 10vh 0;
+    background-color: rgb(242, 242, 242);
+    display: grid;
+    grid-template-columns: 75vh 75vh;
+    justify-content: space-around;
+    row-gap: 15vh;
+    padding-bottom: 50vh;
+    align-items: start;
+}
+
+.object {
+    height: wrap;
+    padding-top: 8vh;
+    background-color: black;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.info-container {
+    color: white;
+    font-family: "Reggae One", Arial;
+    font-size: 3.5vh;
+    width: wrap;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.info-divider {
+    width: 100%;
+    padding: 0 1vh;
+    height: 0.5vh;
+    background-color: white;
+    margin-top: 0.5vh;
+    margin-bottom: 2vh;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+}
+
+.pusher {
+    margin-bottom: 1.5vh;
+}
+
+.button-container {
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    bottom: 0;
+    transform: translateY(110%);
+}
+
+.decorative-line {
+    flex: 1;
+    height: 3vh;
+    background-color: black;
+}
+
+.left-line {
+    border-bottom-left-radius: 2vh;
+}
+
+.right-line {
+    border-bottom-right-radius: 2vh;
+}
+
+.curiosity-button {
+    font-family:"Reggae One", Arial;
+    background-color: black;
+    color: white;
+    font-size: 2.5vh;
+    border-left: solid white 0.5vh;
+    border-bottom: solid white 0.5vh;
+    height: 8vh;
+    width: 36vh;
+    border-bottom-left-radius: 5vh;
+    border-bottom-right-radius: 0.5vh;
+    border-top-left-radius: 0.7vh;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}  
+
+@media (max-width: 1500px) {
+    .objects-container {
+        grid-template-columns: 70vh;
+    }
+}

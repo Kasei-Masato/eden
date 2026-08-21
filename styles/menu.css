@@ -1,0 +1,75 @@
+.overlay {
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.45);
+    opacity:0;
+    visibility:hidden;
+    transition:.35s;
+    z-index:998;
+}
+
+.sideMenu {
+    position:fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    max-width:700px;
+    height: 100%;
+    background:white;
+    box-shadow:-8px 0 25px rgba(0,0,0,.25);
+
+    transform:translateX(100%);
+    transition:transform .35s ease;
+
+    z-index:999;
+
+    padding:30px;
+}
+
+@media (max-width:768px){
+    .sideMenu{
+        width: 40%;
+    }
+}
+
+.overlay.show {
+    opacity:1;
+    visibility:visible;
+}
+
+.sideMenu.open {
+    transform:translateX(0);
+}
+
+.closeButton {
+    position: absolute;
+    top: 15px;
+    right: 18px;
+
+    background: none;
+    border: none;
+
+    font-size: 32px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.sideMenu ul {
+    list-style: none;
+    margin-top: 70px;
+}
+
+.sideMenu li {
+    margin: 40px 0;
+}
+
+[href="#"] {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+.highlight {
+    color: orange;
+    cursor: default;
+}
