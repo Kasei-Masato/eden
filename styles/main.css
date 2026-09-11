@@ -30,6 +30,11 @@
     border-radius: 5vh;
 }
 
+.middle-info-image {
+    height: 35vh;
+    border-radius: 5vh;
+}
+
 .top-info-text-container {
     display: flex;
     flex-direction: column;
@@ -38,7 +43,7 @@
 
 .top-info-title {
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 4.5vh;
     padding-bottom: 2vh;
     min-width: 10vh;
@@ -230,5 +235,54 @@
 @media (max-width: 1500px) {
     .mi-info {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 1000px) {
+    .room-info {
+        flex-direction: column;
+        padding: 12vh 0;
+    }
+
+    .top-info-title {
+        margin-top: 1vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .our-rooms {
+        font-size: 4vh;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .room-info {
+        margin-top: 0vh;
+    }
+
+    .room-main-info {
+        font-size: 3vh;
+        padding: 0.5vh 0;
+    }
+
+    .top-info-image {
+        height: 25vh;
+        border-radius: 3vh;
+    }
+
+    .middle-info-image {
+        height: 35vh;
+        border-radius: 5vh;
+    }
+
+    .lower-info {
+        font-size: 2.3vh;
+        line-height: 4vh;
+        margin: 1vh 1vh;
+    }
+
+    .our-rooms {
+        font-size: 3.2vh;
     }
 }
