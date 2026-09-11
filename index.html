@@ -19,106 +19,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Сауны</title>
-<style>
-
-.box {
-    display: grid;
-    grid-template-columns: 70vh 70vh;
-    gap: 15vh;
-    width: 100%;
-    height: wrap;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 10vh;
-}
-
-.object1 {
-    height: wrap;
-}
-
-.beautiful-picture {
-    width: 100%;
-}
-
-.icon-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1vh;
-    margin-top: 2vh;
-}
-
-.address {
-    font-size: 4.5vh;
-    font-family: "Roboto Slab", serif;
-    margin-bottom: 0.7vh;
-}
-
-.pin-icon {
-    height: 3.4vh;
-}
-
-.quantity {
-    color: grey;
-    font-size: 2.5vh;
-    margin-bottom: 2vh;
-    font-family: Roboto, Arial;
-}
-
-.object-info {
-    margin: 0;
-    font-family: Roboto, Arial;
-    font-size: 2vh;
-}
-
-.distance {
-    margin-bottom: 1vh;
-}
-
-.distance2 {
-    margin-bottom: 3.5vh;
-}
-
-.divider-container {
-    width: 100%;
-    display: flex;
-    justify-content: end;
-}
-
-.divider-main-page {
-    width: 100%;
-    margin-bottom: 1vh;
-}
-
-.curiosity-button1 {
-    font-family: "Roboto Slab", serif;
-    font-size:2vh;
-    padding: 1vh;
-    border: solid black 0.25vh;
-    border-radius: 0.6vh;
-    user-select: none;
-    color: black;
-    text-decoration: none;
-}
-
-.our-saunas-container1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 7vh;
-    margin-top: 4vh;
-    user-select: none;
-}
-
-@media (max-width: 1500px) {
-    .box{
-        grid-template-columns: 80vh;
-        padding-bottom: 7vh;
-    }
-}
-
-</style>
 </head>         
 <body>
     <div class="header-container">
@@ -135,13 +35,13 @@
         <div class="white-border"></div>
     </div>
 
-    <div class="our-saunas-container1">
+    <div class="our-saunas-container">
         <div class="our-saunas-text">Наши Сауны</div>
         <img class="divider" src="images/divider1.png">
     </div>
 
-    <div class="box">
-        <div class="object1">
+    <div class="objects-container">
+        <div class="object">
             <img class="beautiful-picture" src="images/bathhouse-yard.jpg">
             <div>
                 <div class="icon-box">
@@ -156,12 +56,12 @@
                 </p>
                 <img class="divider-main-page" src="images/page-divider-design-elements-set-various-simple-black-divider-design-assorted-divider_1148655-1699-removebg-preview.png">
                 <div class="divider-container">
-                    <a href="bathhouse yard/" class="curiosity-button1">Узнать больше</a>
+                    <a href="bathhouse yard/index.html" class="curiosity-button">Узнать больше</a>
                 </div>
             </div>
         </div>
 
-        <div class="object1">
+        <div class="object">
             <img class="beautiful-picture" src="images/bathhouse-yard.jpg">
             <div>
                 <div class="icon-box">
@@ -176,47 +76,7 @@
                 </p>
                 <img class="divider-main-page" src="images/page-divider-design-elements-set-various-simple-black-divider-design-assorted-divider_1148655-1699-removebg-preview.png">
                 <div class="divider-container">
-                    <a href="bathhouse yard/" class="curiosity-button1">Узнать больше</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="object1">
-            <img class="beautiful-picture" src="images/bathhouse-yard.jpg">
-            <div>
-                <div class="icon-box">
-                    <div class="address">Медерова 189</div>
-                    <img class="pin-icon" src="images/free-pin-icon-48-thumb.png">
-                </div>
-                <div class="quantity">7 саун &bull; без номеров</div>
-                <p class="object-info distance">Хотите настоящий, жаркий  отдых в Бишкеке? Тогда вам обязательно стоит посетить наш оздоровительный комплекс "Банный Двор"!
-                </p>
-                <p class="object-info distance2">
-                    Атмосфера уюта и релаксации, исцеляющая парная, турецкий хамам, тёплый и прохладный бассейны - все это ждет вас в нашем комплексе.
-                </p>
-                <img class="divider-main-page" src="images/page-divider-design-elements-set-various-simple-black-divider-design-assorted-divider_1148655-1699-removebg-preview.png">
-                <div class="divider-container">
-                    <a href="bathhouse yard/" class="curiosity-button1">Узнать больше</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="object1">
-            <img class="beautiful-picture" src="images/bathhouse-yard.jpg">
-            <div>
-                <div class="icon-box">
-                    <div class="address">Медерова 189</div>
-                    <img class="pin-icon" src="images/free-pin-icon-48-thumb.png">
-                </div>
-                <div class="quantity">7 саун &bull; без номеров</div>
-                <p class="object-info distance">Хотите настоящий, жаркий  отдых в Бишкеке? Тогда вам обязательно стоит посетить наш оздоровительный комплекс "Банный Двор"!
-                </p>
-                <p class="object-info distance2">
-                    Атмосфера уюта и релаксации, исцеляющая парная, турецкий хамам, тёплый и прохладный бассейны - все это ждет вас в нашем комплексе.
-                </p>
-                <img class="divider-main-page" src="images/page-divider-design-elements-set-various-simple-black-divider-design-assorted-divider_1148655-1699-removebg-preview.png">
-                <div class="divider-container">
-                    <a href="bathhouse yard/" class="curiosity-button1">Узнать больше</a>
+                    <a href="bathhouse yard/index.html" class="curiosity-button">Узнать больше</a>
                 </div>
             </div>
         </div>
@@ -235,9 +95,9 @@
 
         <ul>
             <li><a href="#" class="highlight">Главная Страница</a></li>
-            <li><a href="#">Гостиницы:</a></li>
-            <li><a href="#">-</a></li>
-            <li><a href="#">-</a></li>
+            <li><a href="#" class="unclickable">Гостиницы:</a></li>
+            <li><a href="#">-Турусбекова 6/1</a></li>
+            <li><a href="#">-Медерова 189</a></li>
             <li><a href="#">-</a></li>
             <li><a href="#">-</a></li>
             <li><a href="#">Партнерам</a></li>
