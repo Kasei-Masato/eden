@@ -47,7 +47,7 @@
 
 .header-border {
     background-color: rgb(81, 81, 81);
-    height: 0.5vh;
+    height: 0.4vh;
     width: 100%;
 }
 
@@ -105,8 +105,31 @@
     transform: translate(-420%, 0) rotate(45deg);
 }    
 
-@media (max-width: 1500px) {
-    .the-button {
-            
+@media (max-width: 600px) {
+    .eden-logo {
+        height: 28vh;
     }
+
+    .header-container {
+        height: 30vh;
+    }
+
+    .bathhouse-yard-logo {
+    height: 15vh;
+    }
+
+    .white-circle {
+    height: 18vh;
+    width: 32vh;
+    border-radius: 16vh;
+    border: solid 0.5vh  rgb(81, 81, 81);
+    }
+
+    .right-button {
+        transform: translate(+360%, 0) rotate(45deg);
+    }
+
+    .left-button {
+        transform: translate(-360%, 0) rotate(45deg);
+    }    
 }
