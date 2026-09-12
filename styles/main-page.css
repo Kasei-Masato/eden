@@ -102,7 +102,8 @@
 .object-info {
     margin: 0;
     font-family: Roboto, Arial;
-    font-size: 2vh;
+    font-size: 2.5vh;
+    font-weight: 300;
 }
 
 .distance {
@@ -134,5 +135,51 @@
     .objects-container{
         grid-template-columns: 80vh;
         padding-bottom: 7vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .objects-container{
+        grid-template-columns: 70vh;
+    }
+}
+
+@media (max-width: 900px) {
+    .objects-container{
+        grid-template-columns: 65vh;
+        gap: 12vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .objects-container{
+        grid-template-columns: 60vh;
+        gap: 10vh;
+    }
+
+    .object-info {
+        font-size: 2.4vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .objects-container{
+        grid-template-columns: 55vh;
+        gap: 10vh;
+    }
+
+    .object-info {
+        font-size: 2.3vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .objects-container{
+        grid-template-columns: 50vh;
+        gap: 10vh;
+    }
+
+    .object-info {
+        font-size: 2.3vh;
     }
 }
