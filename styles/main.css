@@ -233,9 +233,6 @@
 }
 
 @media (max-width: 1500px) {
-    .quality {
-        color: red;
-    }
 
     .mi-info {
         flex-direction: column;
@@ -243,9 +240,6 @@
 }
 
 @media (max-width: 1000px) {
-    .quality {
-        color: green;
-    }
 
     .room-info {
         flex-direction: column;
@@ -258,9 +252,6 @@
 }
 
 @media (max-width: 700px) {
-    .quality {
-        color: purple;
-    }
 
     .our-rooms {
         font-size: 4vh;
@@ -268,9 +259,6 @@
 }
 
 @media (max-width: 600px) {
-    .quality {
-        color: blue;
-    }
 
     .room-info {
         margin-top: 0vh;
