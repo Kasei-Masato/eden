@@ -23,38 +23,42 @@
     bottom: 0;
 }
 
+.indicator {
+    color: white;
+}
+
 @media (max-width: 1500px) {
-    .hooter-note {
+    .indicator {
         color: lightblue;
     }
 }
 
 @media (max-width: 1000px) {
-    .hooter-note {
+    .indicator {
         color: lightcoral;
     }
 }
 
 @media (max-width: 900px) {
-    .hooter-note {
+    .indicator {
         color: lightgoldenrodyellow;
     }
 }
 
 @media (max-width: 800px) {
-    .hooter-note {
+    .indicator {
         color: lightslategray;
     }
 }
 
 @media (max-width: 700px) {
-    .hooter-note {
+    .indicator {
         color: lightseagreen;
     }
 }
 
 @media (max-width: 600px) {
-    .hooter-note {
+    .indicator {
         color: lightgreen;
     }
 }
