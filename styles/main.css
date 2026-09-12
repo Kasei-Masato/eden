@@ -249,6 +249,14 @@
     .top-info-title {
         margin-top: 1vh;
     }
+
+    .top-info-image {
+        height: 30vh;
+    }
+
+    .our-rooms {
+        font-size: 4.5vh;
+    }
 }
 
 @media (max-width: 700px) {
