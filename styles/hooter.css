@@ -62,9 +62,3 @@
         color: lightgreen;
     }
 }
-
-@media (max-width: 500px) {
-    .indicator {
-        color: lightpink;
-    }
-}
