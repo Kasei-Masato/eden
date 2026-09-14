@@ -164,7 +164,7 @@
 
 @media (max-width: 700px) {
     .objects-container{
-        grid-template-columns: 55vh;
+        grid-template-columns: 50vh;
         gap: 10vh;
     }
 
@@ -173,10 +173,18 @@
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .objects-container{
-        grid-template-columns: 50vh;
+        grid-template-columns: 45vh;
         gap: 10vh;
+    }
+
+    .address {
+        font-size: 4vh;
+    }
+
+    .pin-icon {
+        height: 3vh;
     }
 
     .object-info {
