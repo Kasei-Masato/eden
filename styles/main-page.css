@@ -24,7 +24,7 @@
     gap: 15vh;
     width: 100%;
     height: wrap;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     padding-bottom: 10vh;
 }
