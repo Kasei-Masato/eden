@@ -106,6 +106,7 @@ const overlay = document.getElementById("overlay");
 const gallery = document.getElementById("gallery");
 const track = document.getElementById("track");
 const title = document.getElementById("galleryTitle");
+const x = document.getElementById("x");
 
 let currentGallery = [];
 let slideIndex = 0;
@@ -151,6 +152,11 @@ function changeSlide(direction){
 }
 
 overlay.addEventListener("click", () => {
+    overlay.classList.add("hidden");
+    gallery.classList.add("hidden");
+});
+
+x.addEventListener("click", () => {
     overlay.classList.add("hidden");
     gallery.classList.add("hidden");
 });
