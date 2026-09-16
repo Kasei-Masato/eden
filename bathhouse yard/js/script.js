@@ -90,7 +90,6 @@ const galleries = {
         "images/photos/rooms/vip4.jpg",
         "images/photos/rooms/vip5.jpg",
         "images/photos/rooms/vip6.jpg",
-        "images/photos/rooms/vip7.jpg",
         "images/photos/rooms/vip8.jpg",
         "images/photos/rooms/vip9.jpg",
         "images/photos/rooms/vip10.jpg",
