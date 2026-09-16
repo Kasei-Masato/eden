@@ -133,21 +133,45 @@
 
 @media (max-width: 1500px) {
     .objects-container{
-        grid-template-columns: 80vh;
+        grid-template-columns: 50vh 50vh;
+        padding-bottom: 7vh;
+        gap: 8vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    .objects-container{
+        grid-template-columns: 45vh 45vh;
         padding-bottom: 7vh;
     }
 }
 
 @media (max-width: 1000px) {
     .objects-container{
-        grid-template-columns: 70vh;
+        grid-template-columns: 40vh 40vh;
+    }
+
+    .address {
+        font-size: 4vh;
+    }
+
+    .pin-icon {
+        height: 3vh;
+    }
+
+    .object-info {
+        font-size: 2.2vh
     }
 }
 
 @media (max-width: 900px) {
     .objects-container{
-        grid-template-columns: 65vh;
-        gap: 12vh;
+        grid-template-columns: 35vh 35vh;
+        gap: 6vh;
+    }
+
+    .address {
+        font-size: 3.5vh;
     }
 }
 
