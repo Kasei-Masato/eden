@@ -1,11 +1,14 @@
 .overlay {
     position:fixed;
     inset:0;
-    background:rgba(0,0,0,.45);
-    opacity:0;
-    visibility:hidden;
+    background:rgba(0, 0, 0, 0.75);
+    opacity:1;
     transition:.35s;
-    z-index:998;
+    z-index:10;
+}
+
+.overlay.hidden {
+    display: none;
 }
 
 .sideMenu {
@@ -63,13 +66,26 @@
     margin: 40px 0;
 }
 
-[href="#"] {
-    text-decoration: none;
-    color: black;
-    font-size: 26px;
-}
-
 .highlight {
     color: orange;
     cursor: default;
+    text-decoration: none;
+    font-size: 26px;
+    user-select: none;
+}
+
+.unclickable {
+    color: grey;
+    cursor: default;
+    text-decoration: none;
+    font-size: 26px;
+    user-select: none;
+}
+
+.clickable {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 26px;
+    user-select: none;
 }

@@ -2,24 +2,17 @@
     display:none;
 }
 
-.overlay {
-    position:fixed;
-    inset:0;
-    background:rgba(0,0,0,.75);
-    z-index:10;
-}
-
 .gallery-window{
     position:fixed;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
     width:min(900px,90vw);
-    background-color: rgb(227, 209, 187);
+    background-color: rgb(241, 230, 212);
     border-radius: 2vh;
     padding: 3vh;
     z-index: 20;
-    border: 0.5vh solid rgb(81, 81, 81);
+    border: 0.3vh solid rgb(81, 81, 81);
 }
 
 .gallery-title{

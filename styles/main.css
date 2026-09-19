@@ -114,7 +114,6 @@
 }
 
 .our-rooms {
-    display: inline-block;
     outline: none;
     font-family: inherit;
     font-size: 5vh;
@@ -232,6 +231,10 @@
     background-size: max(0px, calc((100vw - 1200px) / 2)) auto;
 }
 
+.number {
+    color: black;
+}
+
 @media (max-width: 1500px) {
 
     .mi-info {
@@ -255,15 +258,15 @@
     }
 
     .our-rooms {
-        font-size: 50px;
+        font-size: 4vh;
     }
 }
 
 @media (max-width: 700px) {
-
     .our-rooms {
-        font-size: 4vh;
+        font-size: 3.8vh;
     }
+    
 }
 
 @media (max-width: 600px) {
