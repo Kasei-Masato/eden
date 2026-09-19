@@ -1,6 +1,7 @@
-html, body {
+html, body, .wrapper {
     margin: 0;
     font-family: Roboto, Arial;
+    overflow-x: hidden;
 }
 
 p {
