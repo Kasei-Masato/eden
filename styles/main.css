@@ -22,7 +22,6 @@
     justify-content: center;
     gap: 5vh;
     margin-bottom: 5vh;
-    margin-top: 6vh;
 }
 
 .top-info-image {
@@ -80,6 +79,10 @@
 
 .margin-bottom {
     margin-bottom: 4vh;
+}
+
+.margin-top {
+    margin-top: 4vh;
 }
 
 .quality {
@@ -166,6 +169,13 @@
     align-items: center;
 }
 
+.singular-button-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .side-border {
     background-color: rgb(81, 81, 81);
     height: 0.3vh;
@@ -235,6 +245,28 @@
     color: black;
 }
 
+.background4 {
+    padding: 0 20vh;
+    max-width: 200vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: none;
+    border-right: none;
+    z-index: 1;
+}
+
+.room-prices {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5vh;
+    margin-bottom: 5vh;
+    height: 35vh;
+}   
+
 @media (max-width: 1500px) {
 }
 
@@ -255,7 +287,7 @@
     }
 
     .top-info-image {
-        height: 300px;
+        height: 40vh;
     }
 
     .our-rooms {
