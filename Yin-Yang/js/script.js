@@ -1,7 +1,7 @@
 const galleries = {
     
     1: {
-        title: "Малая Нирвана",
+        title: "Люкс №1",
         images: [
         "images/photos/rooms/s-nirv1.jpg",
         "images/photos/rooms/s-nirv2.jpg",
@@ -12,38 +12,30 @@ const galleries = {
     },
 
     2: {
-        title: "Большая Нирвана",
+        title: "Люкс №2",
         images: [
-        "images/photos/rooms/b-nirv1.jpg",
-        "images/photos/rooms/b-nirv2.jpg",
-        "images/photos/rooms/b-nirv3.jpg",
-        "images/photos/rooms/b-nirv4.jpg",
-        "images/photos/rooms/b-nirv5.jpg"
+        "images/photos/rooms/lux2-1.jpg",
+        "images/photos/rooms/lux2-2.jpg",
+        "images/photos/rooms/lux2-3.jpg",
+        "images/photos/rooms/lux2-4.jpg"
         ]
     },
 
     3: {
-        title: "Семейная",
+        title: "Делюкс №3",
         images: [
-        "images/photos/rooms/family1.jpg",
-        "images/photos/rooms/family2.jpg",
-        "images/photos/rooms/family3.jpg",
-        "images/photos/rooms/family4.jpg",
-        "images/photos/rooms/family5.jpg",
-        "images/photos/rooms/family6.jpg"
+        "images/photos/rooms/delux3-1.jpg",
+        "images/photos/rooms/delux3-2.jpg",
+        "images/photos/rooms/delux3-3.jpg"
         ]
     },
 
     4: {
-        title: "Делюкс",
+        title: "Делюкс №4",
         images: [
-        "images/photos/rooms/delux1.jpg",
-        "images/photos/rooms/delux2.jpg",
-        "images/photos/rooms/delux3.jpg",
-        "images/photos/rooms/delux4.jpg",
-        "images/photos/rooms/delux5.jpg",
-        "images/photos/rooms/delux6.jpg",
-        "images/photos/rooms/delux7.jpg"
+        "images/photos/rooms/delux4-1.jpg",
+        "images/photos/rooms/delux4-2.jpg",
+        "images/photos/rooms/delux4-3.jpg"
         ]
     },
 
@@ -62,43 +54,6 @@ const galleries = {
         "images/photos/rooms/lux10.jpg",
         ]
     },
-
-    6: {
-        title: "Супер",
-        images: [
-        "images/photos/rooms/super1.jpg",
-        "images/photos/rooms/super2.jpg",
-        "images/photos/rooms/super3.jpg",
-        "images/photos/rooms/super4.jpg",
-        "images/photos/rooms/super5.jpg",
-        "images/photos/rooms/super6.jpg",
-        "images/photos/rooms/super7.jpg",
-        "images/photos/rooms/super8.jpg",
-        "images/photos/rooms/super9.jpg",
-        "images/photos/rooms/super10.jpg",
-        "images/photos/rooms/super11.jpg",
-        "images/photos/rooms/super12.jpg"
-        ]
-    },
-
-    7: {
-        title: "VIP",
-        images: [
-        "images/photos/rooms/vip1.jpg",
-        "images/photos/rooms/vip2.jpg",
-        "images/photos/rooms/vip3.jpg",
-        "images/photos/rooms/vip4.jpg",
-        "images/photos/rooms/vip5.jpg",
-        "images/photos/rooms/vip6.jpg",
-        "images/photos/rooms/vip8.jpg",
-        "images/photos/rooms/vip9.jpg",
-        "images/photos/rooms/vip10.jpg",
-        "images/photos/rooms/vip11.jpg",
-        "images/photos/rooms/vip12.jpg",
-        "images/photos/rooms/vip13.jpg",
-        "images/photos/rooms/vip14.jpg"
-        ]
-    }
 };
 
 const overlay = document.getElementById("overlay");

@@ -34,6 +34,21 @@
     border-radius: 5vh;
 }
 
+.middle-info-image2 {
+    height: 45vh;
+    border-radius: 5vh;
+}
+
+.middle-info-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 5vh;
+    padding-bottom: 2vh;
+    min-width: 10vh;
+    font-family: "Roboto Slab", serif;
+    margin-top: 4vh;
+}
+
 .top-info-text-container {
     display: flex;
     flex-direction: column;
@@ -288,6 +303,10 @@
 
     .top-info-image {
         height: 40vh;
+    }
+
+    .middle-info-image2 {
+        height: 35vh;
     }
 
     .our-rooms {
