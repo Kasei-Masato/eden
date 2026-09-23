@@ -3,11 +3,11 @@ const galleries = {
     1: {
         title: "Люкс №1",
         images: [
-        "images/photos/rooms/s-nirv1.jpg",
-        "images/photos/rooms/s-nirv2.jpg",
-        "images/photos/rooms/s-nirv3.jpg",
-        "images/photos/rooms/s-nirv4.jpg",
-        "images/photos/rooms/s-nirv5.jpg"
+        "images/photos/rooms/lux1-1.jpg",
+        "images/photos/rooms/lux1-2.jpg",
+        "images/photos/rooms/lux1-3.jpg",
+        "images/photos/rooms/lux1-4.jpg",
+        "images/photos/rooms/lux1-5.jpg"
         ]
     },
 
@@ -17,7 +17,8 @@ const galleries = {
         "images/photos/rooms/lux2-1.jpg",
         "images/photos/rooms/lux2-2.jpg",
         "images/photos/rooms/lux2-3.jpg",
-        "images/photos/rooms/lux2-4.jpg"
+        "images/photos/rooms/lux2-4.jpg",
+        "images/photos/rooms/lux2-5.jpg"
         ]
     },
 
@@ -42,16 +43,16 @@ const galleries = {
     5: {
         title: "Люкс",
         images: [
-        "images/photos/rooms/lux1.jpg",
-        "images/photos/rooms/lux2.jpg",
-        "images/photos/rooms/lux3.jpg",
-        "images/photos/rooms/lux4.jpg",
-        "images/photos/rooms/lux5.jpg",
-        "images/photos/rooms/lux6.jpg",
-        "images/photos/rooms/lux7.jpg",
-        "images/photos/rooms/lux8.jpg",
-        "images/photos/rooms/lux9.jpg",
-        "images/photos/rooms/lux10.jpg",
+        "images/photos/rooms/sauna1.jpg",
+        "images/photos/rooms/sauna2.jpg",
+        "images/photos/rooms/sauna3.jpg",
+        "images/photos/rooms/sauna4.jpg",
+        "images/photos/rooms/sauna5.jpg",
+        "images/photos/rooms/sauna6.jpg",
+        "images/photos/rooms/sauna7.jpg",
+        "images/photos/rooms/sauna8.jpg",
+        "images/photos/rooms/sauna9.jpg",
+        "images/photos/rooms/sauna10.jpg"
         ]
     },
 };
