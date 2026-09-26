@@ -25,11 +25,9 @@
     transition:transform .35s ease;
 
     z-index:999;
-
-    padding:30px;
 }
 
-@media (max-width:768px){
+@media (max-width:800px){
     .sideMenu{
         width: 40%;
     }

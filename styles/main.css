@@ -330,6 +330,10 @@
     .our-rooms {
         font-size: 4vh;
     }
+
+    .question-image {
+        height: 2.5vh;
+    }
 }
 
 @media (max-width: 700px) {
@@ -373,5 +377,9 @@
 
     .our-rooms {
         font-size: 3.2vh;
+    }
+
+    .question-button {
+        margin-top: 0.7vh;
     }
 }
