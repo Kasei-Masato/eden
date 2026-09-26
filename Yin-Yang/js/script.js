@@ -57,10 +57,24 @@ const galleries = {
     },
 };
 
+const info = {
+    1: {
+        title: "День/Ночь",
+        yadaYada: "День с 10:00 до 22:00<br><br>Ночь с 22:00 до 10:00"
+    },
+
+    2: {
+        title: "Как работает доплата:",
+        yadaYada: "Если вы возьмёте любой пакет за указанные суммы, как например пакет “Сутки”, и вам понадобится больше времени, то вы можете доплатить по 500 сом за один час.<br><br>Так получится 6000 (за пакет) + 500 (за каждый доп. час) = 6500 сом за сутки и один доп. час.<br><br>Также и с пакетом на два часа. Вы платите 1700 сом за первые два часа, а после вы можете доплатить по 500 сом за час."
+    },
+};    
+
 const overlay = document.getElementById("overlay");
 const gallery = document.getElementById("gallery");
 const track = document.getElementById("track");
+const actualTrack = document.getElementById("actualTrack");
 const title = document.getElementById("galleryTitle");
+const text = document.getElementById("infoText");
 const x = document.getElementById("x");
 
 let currentGallery = [];
@@ -85,6 +99,7 @@ function openGallery(id){
 
     overlay.classList.remove("hidden");
     gallery.classList.remove("hidden");
+    actualTrack.classList.remove("hidden");
 }
 
 function updateSlider(){
@@ -106,12 +121,26 @@ function changeSlide(direction){
     updateSlider();
 }
 
+function openInfo(id){
+    title.textContent = info[id].title;
+
+    text.innerHTML = info[id].yadaYada;
+
+    overlay.classList.remove("hidden");
+    gallery.classList.remove("hidden");
+    text.classList.remove("hidden");
+}
+
 overlay.addEventListener("click", () => {
     overlay.classList.add("hidden");
     gallery.classList.add("hidden");
+    text.classList.add("hidden");
+    actualTrack.classList.add("hidden");
 });
 
 x.addEventListener("click", () => {
     overlay.classList.add("hidden");
     gallery.classList.add("hidden");
+    text.classList.add("hidden");
+    actualTrack.classList.add("hidden");
 });

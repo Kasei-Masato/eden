@@ -280,7 +280,25 @@
     column-gap: 5vh;
     margin-bottom: 5vh;
     height: 35vh;
-}   
+}
+
+.question-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.question-button {
+    margin-left: 0.5vh;
+    margin-top: 1vh;
+    border: none;
+    background: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.question-image {
+    height: 3vh;
+}
 
 @media (max-width: 1500px) {
 }

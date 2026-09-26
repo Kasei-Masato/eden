@@ -22,6 +22,12 @@
     font-size: 3vh;
 }
 
+.gallery-info {
+    text-align: center;
+    font-weight: 500;
+    font-size: 3vh;
+}
+
 .slideshow-container{
     position:relative;
     overflow:hidden;

@@ -97,9 +97,19 @@
                             <div class="top-info-border"></div>
                             <div class="better-indentation">
                                 <div class="room-main-info price">Сутки: 6000 сом</div>
-                                <div class="room-main-info">День/Ночь: 3500 сом</div>
+                                <div class="question-button-container">
+                                    <div class="room-main-info">День/Ночь: 3500 сом</div>
+                                    <button onclick="openInfo(1)" class="question-button">
+                                        <img src="../images/question button.png" class="question-image">
+                                    </button>
+                                </div>
                                 <div class="room-main-info">Почасовой: 1700 сом <span class="smaller"> 2 часа мин.</span></div>
-                                <div class="room-main-info">Доплата за час: 500 сом</div>
+                                <div class="question-button-container">
+                                    <div class="room-main-info">Доплата за час: 500 сом</div>
+                                    <button onclick="openInfo(2)" class="question-button">
+                                        <img src="../images/question button.png" class="question-image">
+                                    </button>
+                                </div>
                             </div>
                             <div class="top-info-border"></div>
                         </div>
@@ -167,9 +177,19 @@
                             <div class="top-info-border"></div>
                             <div class="better-indentation">
                                 <div class="room-main-info price">Сутки: 5000 сом</div>
-                                <div class="room-main-info">День/Ночь: 3000 сом</div>
+                                <div class="question-button-container">
+                                    <div class="room-main-info">День/Ночь: 3500 сом</div>
+                                    <button onclick="openInfo(1)" class="question-button">
+                                        <img src="../images/question button.png" class="question-image">
+                                    </button>
+                                </div>
                                 <div class="room-main-info">Почасовой: 1500 сом <span class="smaller"> 2 часа мин.</span></div>
-                                <div class="room-main-info">Доплата за час: 500 сом</div>
+                                <div class="question-button-container">
+                                    <div class="room-main-info">Доплата за час: 500 сом</div>
+                                    <button onclick="openInfo(2)" class="question-button">
+                                        <img src="../images/question button.png" class="question-image">
+                                    </button>
+                                </div>
                             </div>
                             <div class="top-info-border"></div>
                         </div>
@@ -269,9 +289,10 @@
 
         <div id="gallery" class="gallery-window hidden">
             <h2 id="galleryTitle" class="gallery-title"></h2>
+            <h3 id="infoText" class="gallery-info hidden"></h3>
             <div class="x" id="x">&times;</div>
 
-            <div class="slideshow-container">
+            <div id="actualTrack" class="slideshow-container hidden">
                 <div id="track" class="slides-track"></div>
 
                 <div class="prev" onclick="changeSlide(-1)">❮</div>
