@@ -15,7 +15,7 @@
     position:fixed;
     top: 0;
     right: 0;
-    width: 30%;
+    width: 40%;
     max-width:700px;
     height: 100%;
     background:white;
@@ -29,7 +29,7 @@
 
 @media (max-width:800px){
     .sideMenu{
-        width: 40%;
+        width: 60%;
     }
 }
 

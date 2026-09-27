@@ -8,6 +8,18 @@
     background-color: black;
 }
 
+.hooter-for-additional-pages {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    bottom: 0;
+    transform: translateY(100%);
+}
+
 .hooter-note {
     color: white;
     text-align: center;
