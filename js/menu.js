@@ -1,10 +1,13 @@
 const menu = document.getElementById("sideMenu");
-const overlay2 = document.getElementById("overlay2");5
+const overlay2 = document.getElementById("overlay2");
 
-document.getElementById("menuButton").addEventListener("click", () => {
+function openMenu () {
     menu.classList.add("open");
     overlay2.classList.remove("hidden");
-});
+}
+
+document.getElementById("menuButton").addEventListener("click", openMenu);
+document.getElementById("moving-menu").addEventListener("click", openMenu);
 
 document.getElementById("moving-menu").addEventListener("click", () => {
     menu.classList.add("open");

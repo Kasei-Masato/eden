@@ -4,7 +4,7 @@
     background:rgba(0, 0, 0, 0.75);
     opacity:1;
     transition:.35s;
-    z-index:10;
+    z-index:20;
 }
 
 .overlay.hidden {
