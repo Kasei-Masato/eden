@@ -1,7 +1,12 @@
 const menu = document.getElementById("sideMenu");
-const overlay2 = document.getElementById("overlay2");
+const overlay2 = document.getElementById("overlay2");5
 
 document.getElementById("menuButton").addEventListener("click", () => {
+    menu.classList.add("open");
+    overlay2.classList.remove("hidden");
+});
+
+document.getElementById("moving-menu").addEventListener("click", () => {
     menu.classList.add("open");
     overlay2.classList.remove("hidden");
 });

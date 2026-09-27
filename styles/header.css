@@ -8,6 +8,7 @@
     user-select: none;
     background-color: black;
     height: 40vh;
+    z-index: 11;
 }
 
 .leather {

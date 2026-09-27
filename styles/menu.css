@@ -15,7 +15,7 @@
     position:fixed;
     top: 0;
     right: 0;
-    width: 40%;
+    width: 30%;
     max-width:700px;
     height: 100%;
     background:white;
@@ -25,12 +25,6 @@
     transition:transform .35s ease;
 
     z-index:999;
-}
-
-@media (max-width:800px){
-    .sideMenu{
-        width: 60%;
-    }
 }
 
 .overlay.show {
@@ -68,7 +62,7 @@
     color: orange;
     cursor: default;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 3.5vh;
     user-select: none;
 }
 
@@ -76,7 +70,7 @@
     color: grey;
     cursor: default;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 3.5vh;
     user-select: none;
 }
 
@@ -84,6 +78,85 @@
     color: black;
     cursor: pointer;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 3.5vh;
     user-select: none;
+}
+
+.moving-menu {
+    position: fixed;
+    height: 10vh;
+    right: 0;
+    top: 5vh;
+    z-index: 2;
+    cursor: pointer;
+    transform: translateX(5%);
+}
+
+@media (max-width: 1500px) {
+
+    .sideMenu{
+        width: 40%;
+    }
+
+    .highlight {
+        font-size: 3.2vh;
+    }
+
+    .unclickable {
+        font-size: 3.2vh;
+    }
+
+    .clickable {
+        font-size: 3.2vh;
+    }
+
+    .moving-menu {
+        height: 8vh;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .sideMenu{
+        width: 50%;
+    }
+
+    .highlight {
+        font-size: 3vh;
+    }
+
+    .unclickable {
+        font-size: 3vh;
+    }
+
+    .clickable {
+        font-size: 3vh;
+    }
+
+    .moving-menu {
+        height: 7.3vh;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .sideMenu{
+        width: 60%;
+    }
+
+    .highlight {
+        font-size: 2.7vh;
+    }
+
+    .unclickable {
+        font-size: 2.7vh;
+    }
+
+    .clickable {
+        font-size: 2.7vh;
+    }
+
+    .moving-menu {
+        height: 6.5vh;
+    }
 }
