@@ -238,6 +238,17 @@
     z-index: 1;
 }
 
+.big-room-info {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5vh;
+    margin-bottom: 5vh;
+    height: 35vh;
+    margin-top: 4vh;
+}
+
 .room-info {
     width: 100vh;
     display: flex;
@@ -304,8 +315,6 @@
     .side {
         display: no;
     }
-
-    .movi
 }
 
 @media (max-width: 1000px) {
@@ -313,6 +322,11 @@
     .mi-info {
         grid-template-columns: 65vh;
         gap: 2vh;
+    }
+
+    .big-room-info {
+        flex-direction: row;
+        padding: 0;
     }
 
     .room-info {
@@ -342,6 +356,11 @@
 }
 
 @media (max-width: 900px) {   
+    .big-room-info {
+        flex-direction: column;
+        padding: 12vh 0;
+    }
+
     .room-info {
         flex-direction: column;
         padding: 8vh 0;
@@ -356,8 +375,12 @@
 
 @media (max-width: 600px) {
 
-    .room-info {
+    .big-room-info {
         margin-top: 0vh;
+    }
+
+    .room-info {
+        padding: 6vh 0;
     }
 
     .room-main-info {
