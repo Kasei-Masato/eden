@@ -1,5 +1,8 @@
 <!DOCTYPE html>
+<html lang="ru">
+
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +13,7 @@
     <link rel="stylesheet" href="styles/main-page.css">
     <link rel="stylesheet" href="styles/hooter.css">
     <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/languages.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -29,11 +33,26 @@
         </div>   
     </div>
 
-    <div>
-        <div class="white-border"></div>
-    </div>
+    <div class="black-border"></div>
 
-    <div class="our-saunas-container">
+    <div class="language-buttons">
+
+        <button data-lang="en"  onclick="changeLanguage('en')">
+            <img src="images/en.png" alt="English">
+        </button>
+        
+        <button  data-lang="ky" onclick="changeLanguage('ky')">
+            <img src="images/ky.jpg" alt="Кыргызча">
+        </button>
+
+        <button data-lang="ru" onclick="changeLanguage('ru')">
+            <img src="images/ru.png" alt="Русский">
+        </button>
+
+    </div>
+    <div class="black-border"></div>
+
+    <div class="our-saunas-container" >
         <img class="divider" src="images/The-great-divider2.png">
     </div>
 
@@ -42,17 +61,17 @@
             <img class="beautiful-picture" src="images/bathhouse-yard.jpg">
             <div>
                 <div class="icon-box">
-                    <div class="address">Медерова 189</div>
+                    <div class="address" id="mp-add1"></div>
                     <img class="pin-icon" src="images/free-pin-icon-48-thumb.png">
                 </div>
-                <div class="quantity">без номеров &bull; 7 саун</div>
+                <div class="quantity" id="mp-quantity1">без номеров &bull; 7 саун</div>
                
-                <p class="object-info distance distance2">
+                <p class="object-info distance" id="mp-obinfo1">
                     Атмосфера уюта и релаксации, исцеляющая парная, турецкий хамам, тёплый и прохладный бассейны - все это ждет вас в нашем комплексе "Банный Двор"!
                 </p>
                 <img class="divider-main-page" src="images/page-divider-design-elements-set-various-simple-black-divider-design-assorted-divider_1148655-1699-removebg-preview.png">
                 <div class="divider-container">
-                    <a href="bathhouse-yard/index.html" class="curiosity-button">Узнать больше</a>
+                    <a href="bathhouse-yard/index.html" class="curiosity-button" id="mp-cubutton1">Узнать больше</a>
                 </div>
             </div>
         </div>
@@ -61,15 +80,15 @@
             <img class="beautiful-picture" src="images/Ying-Yang.jpg">
             <div>
                 <div class="icon-box">
-                    <div class="address">Турусбекова 6/1</div>
+                    <div class="address" id="mp-add2">Турусбекова 6/1</div>
                     <img class="pin-icon" src="images/free-pin-icon-48-thumb.png">
                 </div>
-                <div class="quantity">4 номера &bull; 1 сауна</div>
-                <p class="object-info distance">Уютное место в центре Бишкека, где можно отдохнуть от городской суеты, повеселиться с друзьями, и просто хорошо провести время.
+                <div class="quantity" id="mp-quantity2"></div></div>
+                <p class="object-info distance" id="mp-obinfo2">Уютное место в центре Бишкека, где можно комфортно отдохнуть, повеселиться с друзьями, и просто хорошо провести время.
                 </p>
                 <img class="divider-main-page" src="images/page-divider-design-elements-set-various-simple-black-divider-design-assorted-divider_1148655-1699-removebg-preview.png">
                 <div class="divider-container">
-                    <a href="turusbekova/index.html" class="curiosity-button">Узнать больше</a>
+                    <a href="turusbekova/index.html" class="curiosity-button" id="mp-cubutton2">Узнать больше</a>
                 </div>
             </div>
         </div>
@@ -96,6 +115,7 @@
     </nav>
 
     <script src="js/menu.js"></script>
+    <script src="js/languages.js"></script>
 
 </body>
 </html>

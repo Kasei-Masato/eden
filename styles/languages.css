@@ -1,0 +1,113 @@
+.language-buttons {
+    padding: 1vh 0;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    gap: 4vh;
+    width: 100%;
+    background-image: url("../images/wood-pattern.jpg");
+    background-repeat: repeat-x;
+    background-size: 10%;
+}
+
+.language-buttons button {
+    height: 6vh;
+    width: 18vh;
+    overflow: hidden;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: none;
+    filter: grayscale(90%);
+    transition: filter 0.3s;
+}
+
+.language-buttons img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+button.active  {
+    filter: grayscale(0%);
+}
+
+.black-border {
+    background-color: rgb(63, 63, 63);
+    height: 0.5vh;
+    width: 100%;
+}
+
+@media (max-width: 1500px) {
+    .language-buttons {
+        gap: 4vh;
+        background-size: 15%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .language-buttons {
+        gap: 4vh;
+        background-size: 15%;
+    }
+
+    .language-buttons button {
+        height: 6vh;
+        width: 16vh;
+    }
+}
+
+@media (max-width: 900px) {
+    .language-buttons {
+        gap: 4vh;
+        background-size: 15%;
+    }
+
+    .language-buttons button {
+        height: 5vh;
+        width: 14vh;
+    }
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 700px) {
+    .language-buttons {
+        gap: 3vh;
+        background-size: 20%;
+    }
+
+    .language-buttons button {
+        height: 5vh;
+        width: 12vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .language-buttons {
+        gap: 3vh;
+        background-size: 25%;
+    }
+
+    .language-buttons button {
+        height: 5vh;
+        width: 10vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .language-buttons {
+        gap: 2vh;
+        background-size: 30%;
+    }
+
+    .language-buttons button {
+        height: 4vh;
+        width: 10vh;
+    }
+}
