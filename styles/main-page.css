@@ -3,18 +3,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 7vh;
-    margin-top: 4vh;
+    margin-bottom: 4vh;
+    margin-top: 2vh;
     user-select: none;
 }
 
-.our-saunas-text {
-    font-family: "Great Vibes", cursive;
-    font-size: 6vh;
-}
-
 .divider {
-    height: 8vh;
+    height: 20vh;
     -webkit-user-drag: none;
 }
 
@@ -104,6 +99,7 @@
     font-family: Roboto, Arial;
     font-size: 2.5vh;
     font-weight: 300;
+    margin-bottom: 2vh;
 }
 
 .distance {
@@ -137,6 +133,10 @@
         padding-bottom: 7vh;
         gap: 8vh;
     }
+
+    .divider {
+        height: 15vh;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -161,6 +161,10 @@
 
     .object-info {
         font-size: 2.2vh
+    }
+
+    .divider {
+        height: 15vh;
     }
 }
 
@@ -195,10 +199,6 @@
     .object-info {
         font-size: 2.3vh;
     }
-
-    .divider {
-        height: 7vh;
-    }
 }
 
 @media (max-width: 600px) {
@@ -220,6 +220,6 @@
     }
 
     .divider {
-        height: 6vh;
+        height: 14vh;
     }
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../styles/windows.css">
     <link rel="stylesheet" href="../styles/hooter.css">
     <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/languages.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -29,7 +30,22 @@
             </button>
         </div>
 
-        <div class="header-border"></div>
+        <div class="language-buttons">
+
+        <button data-lang="en"  onclick="changeLanguage('en')">
+            <img src="../images/en.png" alt="English">
+        </button>
+        
+        <button  data-lang="ky" onclick="changeLanguage('ky')">
+            <img src="../images/ky.jpg" alt="Кыргызча">
+        </button>
+
+        <button data-lang="ru" onclick="changeLanguage('ru')">
+            <img src="../images/ru.png" alt="Русский">
+        </button>
+
+    </div>
+    <div class="black-border"></div>
 
         <div class="container2">
             <div class="side"></div>
@@ -37,7 +53,7 @@
                 <div class="mi-info">
                     <img class="top-info-image" src="images/photos/top-info-image.jpg">
                     <div class="top-info-text-container">
-                        <div class="top-info-title">Банный Двор</div>
+                        <div class="top-info-title" id="byInfo1">Банный Двор</div>
                         <div class="better-indentation">
                             <div class="top-info-border"></div>
                             <div class="top-info-text">Наш адрес: Медерова 189</div>
@@ -330,18 +346,19 @@
         <button class="closeButton" id="closeButton">&times;</button>
 
         <ul>
-            <li><a class="clickable" href="../index.html">Главная Страница</a></li>
-            <li><a class="unclickable">Отели:</a></li>
-            <li><a class="clickable" href="../turusbekova/index.html">&#8212; Турусбекова 6/1</a></li>
-            <li><a class="highlight">&#8212; Медерова 189</a></li>
-            <li><a class="clickable" href="../to-partners/index.html">Партнерам</a></li>
-            <li><a class="clickable" href="../vacancies/index.html">Вакансии</a></li>
+            <li><a class="clickable" href="../index.html" id="menu1">Главная Страница</a></li>
+            <li><a class="unclickable" id="menu2">Отели:</a></li>
+            <li><a class="clickable" href="../turusbekova/index.html" id="menu3">&#8212; Турусбекова 6/1</a></li>
+            <li><a class="highlight" id="menu4">&#8212; Медерова 189</a></li>
+            <li><a class="clickable" href="../to-partners/index.html" id="menu5">Партнерам</a></li>
+            <li><a class="clickable" href="../vacancies/index.html" id="menu6">Вакансии</a></li>
         </ul>
     </nav>
 
 
     <script src="../js/menu.js"></script>
     <script src="js/script.js"></script>
+    <script src="../js/languages.js"></script>
 
 </body>
 </html>
