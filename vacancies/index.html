@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../styles/hooter.css">
     <link rel="stylesheet" href="../styles/menu.css">
     <link rel="stylesheet" href="../styles/additional-pages.css">
+    <link rel="stylesheet" href="../styles/languages.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -29,15 +30,30 @@
                     <img class="menu-icon" src="../images/menu.png" alt="Menu">
                 </button>
             </div>
-
-            <div>
-                <div class="white-border"></div>
-            </div>
         </div>
+    </div>
+
+    <div class="black-border"></div>
+    <div class="language-buttons">
+
+        <button data-lang="en"  onclick="changeLanguage('en')">
+            <img src="../images/en.png" alt="English">
+        </button>
+        
+        <button  data-lang="ky" onclick="changeLanguage('ky')">
+            <img src="../images/ky.jpg" alt="Кыргызча">
+        </button>
+
+        <button data-lang="ru" onclick="changeLanguage('ru')">
+            <img src="../images/ru.png" alt="Русский">
+        </button>
+
+    </div>
+    <div class="black-border"></div>
 
         <div class="container-for-additional-text">
-            <div class="bold-additional-text">Если вы ищете работу,</div>
-            <div class="additional-text">
+            <div class="bold-additional-text" id="vText1">Если вы ищете работу,</div>
+            <div class="additional-text" id="vText2">
                 Мы всегда готовы рассмотреть Ваше резюме и кандидатуру для работы в нашей команде.<br><br>
                 Мы ищем сотрудников женского пола на роли администратора и горничной в нашу сеть гостиниц и саун.<br><br>
                 Вы можете записаться на интервью по этому номеру:<br><br>

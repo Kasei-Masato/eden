@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../styles/hooter.css">
     <link rel="stylesheet" href="../styles/menu.css">
     <link rel="stylesheet" href="../styles/additional-pages.css">
+    <link rel="stylesheet" href="../styles/languages.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -29,15 +30,31 @@
                     <img class="menu-icon" src="../images/menu.png" alt="Menu">
                 </button>
             </div>
-
-            <div>
-                <div class="white-border"></div>
-            </div>
         </div>
 
+        <div class="black-border"></div>
+    <div class="language-buttons">
+
+        <button data-lang="en"  onclick="changeLanguage('en')">
+            <img src="../images/en.png" alt="English">
+        </button>
+        
+        <button  data-lang="ky" onclick="changeLanguage('ky')">
+            <img src="../images/ky.jpg" alt="Кыргызча">
+        </button>
+
+        <button data-lang="ru" onclick="changeLanguage('ru')">
+            <img src="../images/ru.png" alt="Русский">
+        </button>
+
+    </div>
+    <div class="black-border"></div>
+
+        
+
         <div class="container-for-additional-text">
-            <div class="bold-additional-text">Уважаемые Партнеры,</div>
-            <div class="additional-text">
+            <div class="bold-additional-text" id="tpText1">Уважаемые Партнеры,</div>
+            <div class="additional-text" id="tpText2">
                 KGB Group приглашает к сотрудничеству корпоративных клиентов
                 службы он-лайн бронирования, службы такси,
                 турфирмы.<br><br>
@@ -47,8 +64,8 @@
                 Работа по агентскому договору с предоставлением фиксированного размера комиссионного вознаграждения;
                 Работа по корпоративному договору с предоставлением индивидуальной скидки, которая рассчитывается по каждой заявке.
             </div>
-            <div class="bold-additional-text">Плюсы сотрудничества с нами:</div>
-            <div class="additional-text">
+            <div class="bold-additional-text" id="tpText3">Плюсы сотрудничества с нами:</div>
+            <div class="additional-text" id="tpText4">
                 &bull; Удобное расположение наших объектов;<br>
                 &bull; Гибкая ценовая политика;<br>
                 &bull; Индивидуальный подход к каждой заявке на бронирование;<br>
