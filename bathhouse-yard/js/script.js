@@ -1,7 +1,9 @@
 const galleries = {
     
     1: {
-        title: "Малая Нирвана",
+        title1: "Малая Нирвана",
+        title2: "Small Nirvana",
+        title3: "Кичи Нирвана",
         images: [
         "images/photos/rooms/s-nirv1.jpg",
         "images/photos/rooms/s-nirv2.jpg",
@@ -12,7 +14,9 @@ const galleries = {
     },
 
     2: {
-        title: "Большая Нирвана",
+        title1: "Большая Нирвана",
+        title2: "Big Nirvana",
+        title3: "Чоң Нирвана",
         images: [
         "images/photos/rooms/b-nirv1.jpg",
         "images/photos/rooms/b-nirv2.jpg",
@@ -23,7 +27,9 @@ const galleries = {
     },
 
     3: {
-        title: "Семейная",
+        title1: "Семейная",
+        title2: "Family",
+        title3: "Үй-бүлөлүк",
         images: [
         "images/photos/rooms/family1.jpg",
         "images/photos/rooms/family2.jpg",
@@ -35,7 +41,9 @@ const galleries = {
     },
 
     4: {
-        title: "Делюкс",
+        title1: "Делюкс",
+        title2: "Deluxe",
+        title3: "Делюкс",
         images: [
         "images/photos/rooms/delux1.jpg",
         "images/photos/rooms/delux2.jpg",
@@ -48,7 +56,9 @@ const galleries = {
     },
 
     5: {
-        title: "Люкс",
+        title1: "Люкс",
+        title2: "Lux",
+        title3: "Люкс",
         images: [
         "images/photos/rooms/lux1.jpg",
         "images/photos/rooms/lux2.jpg",
@@ -64,7 +74,9 @@ const galleries = {
     },
 
     6: {
-        title: "Супер",
+        title1: "Супер",
+        title2: "Super",
+        title3: "Супер",
         images: [
         "images/photos/rooms/super1.jpg",
         "images/photos/rooms/super2.jpg",
@@ -82,7 +94,9 @@ const galleries = {
     },
 
     7: {
-        title: "VIP",
+        title1: "VIP",
+        title2: "VIP",
+        title3: "VIP",
         images: [
         "images/photos/rooms/vip1.jpg",
         "images/photos/rooms/vip2.jpg",
@@ -114,7 +128,15 @@ function openGallery(id){
     currentGallery = galleries[id].images;
     slideIndex = 0;
 
-    title.textContent = galleries[id].title;
+    if(document.documentElement.lang == "ru") {
+        title.textContent = galleries[id].title1;
+    } else if (document.documentElement.lang == "en") {
+        title.textContent = galleries[id].title2;
+    } else {
+        title.textContent = galleries[id].title3;
+    }
+
+
 
     track.innerHTML = "";
 

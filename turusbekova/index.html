@@ -2,13 +2,14 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Инь Ян</title>
+    <title>Турусбекова 6/1</title>
     <link rel="stylesheet" href="../styles/general.css">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/windows.css">
     <link rel="stylesheet" href="../styles/hooter.css">
     <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/languages.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -28,8 +29,20 @@
             </button>
         </div>
 
-        <div>
-            <div class="white-border"></div>
+        <div class="language-buttons">
+
+            <button data-lang="en"  onclick="changeLanguage('en')">
+                <img src="../images/en.png" alt="English">
+            </button>
+            
+            <button  data-lang="ky" onclick="changeLanguage('ky')">
+                <img src="../images/ky.jpg" alt="Кыргызча">
+            </button>
+
+            <button data-lang="ru" onclick="changeLanguage('ru')">
+                <img src="../images/ru.png" alt="Русский">
+            </button>
+
         </div>
 
         <div class="container2">
@@ -38,25 +51,25 @@
                 <div class="mi-info">
                     <img class="top-info-image" src="images/photos/top-info-image.jpg">
                     <div class="top-info-text-container">
-                        <div class="top-info-title">Турусбекова 6/1</div>
+                        <div class="top-info-title" id="yyText1">Турусбекова 6/1</div>
                         <div class="better-indentation">
                             <div class="top-info-border"></div>
-                            <a class="top-info-text number" href="tel:+996553454360">Тел.: 0553-454-360</a>
+                            <a class="top-info-text number" href="tel:+996553454360" id="yyText2">Тел.: 0553-454-360</a>
                             <div class="top-info-border"></div>
-                            <div class="top-info-text">Мы ждем Ваc круглосуточно, без выходных.</div>
+                            <div class="top-info-text" id="yyText3">Мы ждем Ваc круглосуточно, без выходных.</div>
                             <div class="top-info-border"></div>
                         </div>
                     </div>
                 </div>
 
 
-                <p class="lower-info whole-text-center">
+                <p class="lower-info whole-text-center" id="yyText4">
                     Уютное место в центре Бишкека, где можно комфортно отдохнуть, повеселиться с друзьями, и просто хорошо провести время.
                 </p>
-                <p class="lower-info margin-bottom whole-text-center">
+                <p class="lower-info margin-bottom whole-text-center" id="yyText5">
                     Комфортная атмосфера, широкий выбор услуг и внимательное обслуживание позволяют каждому составить отдых по своему вкусу.
                 </p>
-                <p class="lower-info margin-bottom">
+                <p class="lower-info margin-bottom" id="yyText6">
                     <span class="quality center">Что вы у нас найдёте:</span><br>
 
                     К услугам гостей — комфортабельные гостиничные номера, где можно переночевать или остановиться на пару дней.<br>
@@ -70,7 +83,7 @@
                 <img src="images/photos/parking-lots.jpg" class="top-info-image">
                 </div>
 
-                <p class="lower-info whole-text-center">
+                <p class="lower-info whole-text-center" id="yyText7">
                     «Инь-Ян» — место, где можно забыть о повседневных заботах, провести время в хорошей компании и полноценно отдохнуть.
                 </p>
             </div>

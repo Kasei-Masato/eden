@@ -1,4 +1,3 @@
-
 const translations = {
 
     ru: {
@@ -69,7 +68,13 @@ const translations = {
         "byCubutton6": "Узнать больше",
         "byCubutton7": "Узнать больше",
 
-
+        "yyText1": "Турусбекова 6/1",
+        "yyText2": "Тел.: 0553-454-360",
+        "yyText3": "Мы ждем Ваc круглосуточно, без выходных.",
+        "yyText4": "Уютное место в центре Бишкека, где можно комфортно отдохнуть, повеселиться с друзьями, и просто хорошо провести время.",
+        "yyText5": "Комфортная атмосфера, широкий выбор услуг и внимательное обслуживание позволяют каждому составить отдых по своему вкусу.",
+        "yyText6": '<span class="quality center">Что вы у нас найдёте:</span> <br> К услугам гостей — комфортабельные гостиничные номера, где можно переночевать или остановиться на пару дней.<br><br> Главное пространство комплекса — уютный зал вместимостью до 10 человек, подходящий как для спокойного отдыха, так и для вечеринок, праздников и небольших мероприятий. Здесь всё собрано в одном месте: сауна, русский бильярд, SPA-процедуры, услуги косметолога и массажиста. Для любителей традиционного парения можно пригласить банщика, а также выбрать аромат и веник по своему вкусу.<br><br> На территории также предусмотрена охраняемая стоянка, чтобы ничто не отвлекало от вашего времяпрепровождения.</br>',
+        "yyText7": "Это место где можно забыть о повседневных заботах, провести время в хорошей компании и полноценно отдохнуть.",
     },
 
     en: {
@@ -94,7 +99,7 @@ const translations = {
         "vText1": "Looking for a Job?",
         "vText2": 'We are always happy to review your résumé and consider your application to join our team.<br><br>We are currently looking for female candidates for the positions of hotel administrator and housekeeper at our hotel and sauna chain.<br><br>You can schedule an interview by calling:<br><br> <a class="additional-number" href="tel:+996551395456">Tel.: 0551-395-456</a>',
         
-        "byText1": "Bathhouse yard",
+        "byText1": "Bannyi Dvor",
         "byText2": "Address: 189 Mederova Street",
         "byText3": "Tel.: +996 995-567-777",
         "byText4": "We are open 24/7, seven days a week!",
@@ -138,7 +143,13 @@ const translations = {
         "byCubutton6": "Learn More",
         "byCubutton7": "Learn More",
 
-
+        "yyText1": "6/1 Turusbekov St.",
+        "yyText2": "Tel.: +996 553-454-360",
+        "yyText3": "We are open 24/7, seven days a week.",
+        "yyText4": "A cozy place in the heart of Bishkek where you can relax in comfort, have fun with friends, and simply enjoy your time.",
+        "yyText5": "A welcoming atmosphere, a wide range of services, and attentive service allow everyone to create an experience tailored to their preferences.",
+        "yyText6": '<span class="quality center">What you’ll find here:</span> <br> Our guests can enjoy comfortable hotel rooms, perfect for an overnight stay or accommodation for a few days.<br><br> The heart of our complex is a cozy lounge accommodating up to 10 people, ideal for both peaceful relaxation and parties, celebrations, and small events. Everything you need is available in one place: a sauna, Russian billiards, spa treatments, and beauty and massage services. If you enjoy traditional steam bathing, you can also request a professional bath attendant and choose your preferred aroma and venik (traditional leafy sauna whisk).<br><br> Secure parking is also available on-site, so you can relax and enjoy your time without a worry.</br>',
+        "yyText7": "This is the place where you can leave everyday worries behind, spend quality time with good company, and truly unwind.",
     },
 
     ky: {
@@ -206,7 +217,13 @@ const translations = {
         "byCubutton6": "Кененирээк",
         "byCubutton7": "Кененирээк",
 
-
+        "yyText1": "Турусбеков 6/1",
+        "yyText2": "Тел.: 0553-454-360",
+        "yyText3": "Биз күнү-түнү, жумасына жети күн иштейбиз.",
+        "yyText4": "Бишкектин борборунда жайгашкан жайлуу жер — бул жерде сиз ыңгайлуу эс алып, досторуңуз менен көңүл ачып, убактыңызды жагымдуу өткөрө аласыз.",
+        "yyText5": "Жайлуу атмосфера, кызматтардын кеңири тандоосу жана кунт коюп тейлөө ар бир конокко өзүнө ылайыктуу эс алууну уюштурууга мүмкүнчүлүк берет.",
+        "yyText6": '<span class="quality center">What you’ll find here:</span> <br> Конокторубуз бир түнгө же бир нече күнгө токтоого ылайыктуу, ыңгайлуу мейманкана бөлмөлөрүндө эс ала алышат.<br><br> Комплексибиздин негизги бөлүгү — 10 адамга чейин ылайыкталган жайлуу зал. Ал тынч эс алууга да, достор менен кечелерди, майрамдарды жана чакан иш-чараларды өткөрүүгө да ылайыктуу. Бул жерде эс алуу үчүн керектүү кызматтардын баары бар: сауна, орус бильярды, SPA-процедуралар, косметологдун жана массажисттин кызматтары. Салттуу бууга түшүүнү каалагандар мончочуну чакырып, өзүнө жаккан жытты жана мончо шыпыргысын тандай алышат.<br><br> Аймакта унааңызды коопсуз токтотууга ылайыкталган кайтарылган унаа токтотуучу жай да бар. Эч нерсеге кабатыр болбой, эс алууңуздан ырахат алыңыз.</br>',
+        "yyText7": "Бул — күнүмдүк түйшүктөрдү унутуп, жакшы компанияда убакыт өткөрүп, жан дүйнөңүз менен эс ала турган жай.",
     }
 
 };
